@@ -1,0 +1,36 @@
+body {
+	background: url('../assets/background.jpg') no-repeat;
+	background-size: cover;
+    margin-top: 200px;
+}
+
+.body-section { 
+	color: white;
+	font-family: helvetica, sans-seif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: left;
+	margin-top: 250px;
+	margin-left: 130px;
+}
+
+hr {
+	margin-top: 35px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 50px;
+	border-color: #fd6e6e;
+}
+
+a {
+
+}
+
+.stripe {
+	background: url("../assets/stripes.png") repeat-x;
+  	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 15px;
+}
