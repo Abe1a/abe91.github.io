@@ -1,12 +1,11 @@
 body {
 	background: url('../assets/background.jpg') no-repeat;
 	background-size: cover;
-    margin-top: 200px;
 }
 
 .body-section { 
 	color: white;
-	font-family: helvetica, sans-seif;
+	font-family: sans-serif;
 	font-size: 20px;
 	font-weight: lighter;
 	text-align: left;
