@@ -1,6 +1,8 @@
 body {
-	background: url('../assets/background.jpg') no-repeat, url('../assets/stripes.png') repeat-x;
-	background-size: cover, auto;
+	background-image: url(../assets/stripes.png), url(../assets/background.jpg);
+	background-repeat: repeat-x, no-repeat;
+	background-position: left top, right top;
+	background-size: auto, cover;
 	background-color:#525a6a;
 }
 
