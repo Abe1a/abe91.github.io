@@ -1,18 +1,25 @@
 
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: url('assets/bg-image.jpg') no-repeat;
 	background-size: cover;
 	background-color: #323740;
 }
+section {
+	margin: 0px 0px 0px 100px;
+}
 #logo {
 	background: url(assets/chill-bean-logo.png) no-repeat;
-	margin: 50px 0px 0px 100px;
+	margin: 50px 0px 0px 0px;
 	padding: 20px 0px 20px 0px;
+	height: 165px;
+
 }
 .circles {
 	background: url(assets/circles.png) no-repeat;
-	padding: 0px 0px 10px 0px;
-	margin: 570px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 390px 0px 0px 0px;
+	height: 10px;
 }
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -22,8 +29,9 @@ h1 {
 	font-size: 2.5em;
 	letter-spacing: 1px;
 	text-shadow: 2px 2px 15px #000000;
-	margin: 0px 0px 0px 0px;
-	padding: 35px 0px 5px 0px;
+	margin: 15px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+
 }
 .body-section {
 	background-image: url('assets/circles.png') no-repeat;
@@ -35,6 +43,6 @@ h1 {
 	text-align: left;
 	color: #ffffff;
 	text-shadow: 2px 2px 12px #000000;
-	
+	width: 655px;
 }
 
