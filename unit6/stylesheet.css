@@ -31,7 +31,7 @@ a {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	display: in-line block;
+	display: inline block;
 	float: right;
 	padding: 10px;
 	margin: 30px 50px 0 0;
@@ -62,6 +62,19 @@ article {
 	margin: 0 auto 30px auto;
 	color: #ffffff;
 	display: block;
+}
+
+ul {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: lighter;
+	color: #ffffff;
+	margin: 0 auto 30px auto;
+	display: inline-block;
+}
+
+li {
+	margin: 0 ;
+	display: inline-block;
 }
 
 .clearfix:after {
