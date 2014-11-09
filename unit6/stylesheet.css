@@ -15,23 +15,15 @@ body {
 	float: left;
 }
 
-#menu {
-	background: url('assets/menu-icon.png');
-	width: 100%;
-}
-
 nav {
 	font-family: 'PT Sans', sans-serif;
 	height: 100px;
 	top: 0px;
+
 }
 
 nav a {
-<<<<<<< Updated upstream
-	color: #ffffff;
-=======
 	color: #273135;
->>>>>>> Stashed changes
 	font-size: 1em;
 	font-weight: lighter;
 	text-align: left;
@@ -86,6 +78,10 @@ li {
 	display: inline-block;
 }
 
+#ghostbuttons {
+	position: absolute;
+}
+
 a.ghost {
 	font-family: 'PT Sans', sans-serif;
 	width: 100px;
@@ -93,7 +89,6 @@ a.ghost {
 	color: #ffffff;
 	text-decoration: none;
 	padding: 20px;
-	margin: 0 auto 30px auto;
 }
 
 a.ghost + a.ghost {
@@ -101,7 +96,7 @@ a.ghost + a.ghost {
 }
 
 section a.ghost {
-	margin: 0 0 0 800px;
+	margin: auto auto auto 800px;
 }
 
 a.ghost:hover {
