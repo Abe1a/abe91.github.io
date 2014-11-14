@@ -64,6 +64,10 @@ section p {
 	width: 850px;
 }
 
+section {
+	text-align: center;
+}
+
 ul {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: lighter;
@@ -94,14 +98,29 @@ a.ghost + a.ghost {
 	margin-left: 50px;
 }
 
-section a.ghost {
-	margin: auto auto auto 800px;
-}
-
 a.ghost:hover {
 	color: #273135;
 	background-color: #ffffff;
 	transition: 0.5s ease;
+}
+
+#HomeSection {
+	height: 100px;
+}
+
+.FeaturedSection li {
+	margin-top: 100px;
+}
+
+.FeaturedSection {
+	margin-top: 700px;
+	background: #ffffff;
+	height: 300px;
+}
+
+.FeaturedSection a {
+	text-decoration: none;
+	margin: 40px 70px 40px auto;
 }
 
 .clearfix:after {
