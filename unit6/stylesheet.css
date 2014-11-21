@@ -90,6 +90,7 @@ footer {
 	background-size: cover;
 	background-color: #f7f7f7;
 	background-attachment: fixed;
+	height:100vh;
 }
 
 #logo {
