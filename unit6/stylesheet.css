@@ -1,22 +1,16 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background: url('assets/bg-home-image.jpg') no-repeat;
-	background-size: cover;
-	background-color: #f7f7f7;
-	background-attachment: fixed;
 }
-
-#HomeSection {
+section {
+	text-align: center;
+}
+header {
 	height: 100px;
+	position:fixed;
+	top:0;
+	left:0;
 }
-
-#logo {
-	margin: 15px 0 0 50px;
-	width: 75px;
-	float: left;
-}
-
 nav {
 	font-family: 'PT Sans', sans-serif;
 	height: 100px;
@@ -67,9 +61,6 @@ section p {
 	width: 850px;
 }
 
-section {
-	text-align: center;
-}
 
 ul {
 	font-family: 'PT Sans', sans-serif;
@@ -83,7 +74,29 @@ li {
 	margin: 0 ;
 	display: inline-block;
 }
+img {
+	float: left;
+}
 
+footer {
+	font-family: 'PT Sans', sans-serif;
+	color: #f7f7f7;
+	text-align: center;
+	background-color: #273135;
+	height: 150px;
+}
+#Splash {
+	background: url('assets/bg-home-image.jpg') no-repeat;
+	background-size: cover;
+	background-color: #f7f7f7;
+	background-attachment: fixed;
+}
+
+#logo {
+	margin: 15px 0 0 50px;
+	width: 75px;
+	float: left;
+}
 #ghostbuttons {
 	position: absolute;
 }
@@ -153,18 +166,6 @@ a.ghost:hover {
 
 .GroupFolio {
 	margin: 0 0 0 0;
-}
-
-img {
-	float: left;
-}
-
-footer {
-	font-family: 'PT Sans', sans-serif;
-	color: #f7f7f7;
-	text-align: center;
-	background-color: #273135;
-	height: 150px;
 }
 
 .clearfix:after {
