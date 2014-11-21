@@ -3,10 +3,12 @@
 body {
 	background: url('assets/bg-home-image.jpg') no-repeat;
 	background-size: cover;
-	background-color: #273135;
+	background-color: #f7f7f7;
+	background-attachment: fixed;
 }
-#navbar {
-	background: #f7f7f7;
+
+#HomeSection {
+	height: 100px;
 }
 
 #logo {
@@ -19,6 +21,7 @@ nav {
 	font-family: 'PT Sans', sans-serif;
 	height: 100px;
 	top: 0px;
+	background: #ffffff;
 
 }
 
@@ -104,23 +107,64 @@ a.ghost:hover {
 	transition: 0.5s ease;
 }
 
-#HomeSection {
-	height: 100px;
+.About {
+	margin-top: 1000px;
+	background-color: #f7f7f7;
+	height: 700px;
 }
 
-.FeaturedSection li {
+<!--.About h1 {
+	color: #273135;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 2.2em;
+}-->
+
+#AboutLogo {
+	width: 75px;
+	text-align: center;
+	float: inherit;
+	margin-bottom: 15px;
 	margin-top: 100px;
+}
+
+.About hr {
+	width: 700px;
+	border-top: 1px solid #ccc;
+	margin: 0 auto 25px auto;
+	margin-bottom: 25px;
+}
+
+.About p {
+	color: #273135;
+	font-size: 1.1em;
+	line-height: 24px;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 24px;
+	width: 700px;
 }
 
 .FeaturedSection {
 	margin-top: 700px;
 	background: #ffffff;
-	height: 300px;
+	height: 500px;
 }
 
-.FeaturedSection a {
-	text-decoration: none;
-	margin: 40px 70px 40px auto;
+.GroupFolio {
+	margin: 0 0 0 0;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	font-family: 'PT Sans', sans-serif;
+	color: #f7f7f7;
+	text-align: center;
+	background-color: #273135;
+	height: 150px;
 }
 
 .clearfix:after {
