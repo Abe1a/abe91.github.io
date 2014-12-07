@@ -3,10 +3,12 @@
 body {
 	background-color: #f7f7f7;
 }
+
 section {
 	text-align: center;
 	background-color: #f7f7f7;
 }
+
 header {
 	height: 100px;
 	width:100%;
@@ -14,12 +16,20 @@ header {
 	top:0;
 	left:0;
 }
+
 nav {
 	font-family: 'PT Sans', sans-serif;
 	height: 100px;
 	top: 0px;
 	background: #ffffff;
+}
 
+nav ul {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
 }
 
 nav a {
@@ -77,7 +87,7 @@ section p {
 	line-height: 50px;
 	margin: 0 auto 50px auto;
 	color: #ffffff;
-	width: 850px;
+	max-width: 850px;
 }
 
 img {
@@ -166,7 +176,7 @@ a.Ghost:hover {
 	text-align: center;
 	font-weight: normal;
 	margin-top: 24px;
-	width: 700px;
+	max-width: 700px;
 }
 
 #FeaturedSection {
@@ -184,21 +194,16 @@ a.Ghost:hover {
 	padding-bottom: 100px;
 }
 
-#ServicesSection {
-	margin-top: 100px;
-	text-align: center;
-	display: flex;
-}
-
 .Columns {
-	float: left;
 	width: 310px;
-	margin: auto;
+	margin-top: 100px;
+	margin-right: 20px;
 	font-family: 'PT Sans', sans-serif;
 	line-height: 30px;
 	font-size: 1.1em;
 	text-align: left;
 	color: #273135;
+	display: inline-block;
 }
 
 a.GhostFolio {
@@ -216,12 +221,36 @@ a.GhostFolio:hover {
 }
 
 #ContactSection h2 {
-	margin-top: 170px;
+	margin-top: 200px;
 }
 
 #ContactSection a {
 	font-family: 'PT Sans', sans-serif;
 	text-decoration: none;
+}
+
+#ContactSection img {
+	width: 180px;
+	padding: 15px 65px;
+	text-align: center;
+	background: #273135;
+	float: none;
+	margin: auto;
+}
+
+#ContactSection img:hover {
+	color: #FF3D2C;
+}
+
+#ContactSection p {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	color: #273135;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 24px;
+	max-width: 800px;
+	margin: 50px auto;
 }
 
 .clearfix:after {
