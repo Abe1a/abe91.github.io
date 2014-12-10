@@ -276,8 +276,29 @@ a.GhostFolio:hover {
 }
 
 
-@media screen and (min-width: 320px) { .GroupFolio img
+@media screen and (min-width: 320px) { .GroupFolio
 	{
-		float: none;
-		width: auto;
-	}
+	width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
