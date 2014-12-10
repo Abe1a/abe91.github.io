@@ -262,7 +262,7 @@ a.GhostFolio:hover {
   height: 0;	
 }
 
-@media screen and (max-width: 320px){ #Splash p 
+@media screen and (min-width: 320px) { #Splash p 
 	{
 		font-family: 'PT Sans', sans-serif;
 		font-size: .8em;
@@ -274,3 +274,10 @@ a.GhostFolio:hover {
 		color: #ffffff;
 		max-width: 750px;
 }
+
+
+@media screen and (min-width: 320px) { .GroupFolio img
+	{
+		float: none;
+		width: auto;
+	}
