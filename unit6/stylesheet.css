@@ -259,19 +259,18 @@ a.GhostFolio:hover {
   font-size: 0;
   content: " ";
   clear: both;
-  height: 0;
+  height: 0;	
 }
 
-@media screen and (device-width: 320px) and
-(device-height: 568px) and (-webkit-device-pixel-ratio:
-2) #Splash p {
-	font-family: 'PT Sans', sans-serif;
-	font-size: .8em;
-	font-style: center;
-	font-weight: bolder;
-	text-align: center;
-	line-height: 50px;
-	margin: 0 auto 50px auto;
-	color: #ffffff;
-	max-width: 750px;
+@media screen and (max-width: 320px){ #Splash p 
+	{
+		font-family: 'PT Sans', sans-serif;
+		font-size: .8em;
+		font-style: center;
+		font-weight: bolder;
+		text-align: center;
+		line-height: 50px;
+		margin: 0 auto 50px auto;
+		color: #ffffff;
+		max-width: 750px;
 }
