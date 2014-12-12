@@ -148,6 +148,12 @@ a.NavFolio + a.NavFolio {
 	margin-left:  900px;
 }
 
+a.NavFolio:hover {
+	color: #ffffff;
+	background-color: #273135;
+	transition: 0.5s ease;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
