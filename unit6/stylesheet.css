@@ -113,6 +113,16 @@ footer {
 	display: block;
 }
 
+#ServicesSection {
+	margin-bottom: 200px;
+}
+
+#Icons {
+	width: 85%;
+	margin-bottom: 30px;
+	float: none;
+}
+
 #Splash {
 	background: url('assets/bg-home-image.jpg') no-repeat;
 	background-size: cover;
@@ -179,15 +189,10 @@ a.Ghost:hover {
 	max-width: 700px;
 }
 
-#FeaturedSection {
-	width: 90%
-	margin 0 auto;
- 	background-color: #f7f7f7;
-}
-
 .GroupFolio {
 	width: 100%;
 	margin: auto;
+	margin-top: 60px;
 	background-color: #f7f7f7;
 	clear: both;
 	display: -webkit-box;
@@ -196,8 +201,7 @@ a.Ghost:hover {
 
 .Columns {
 	width: 310px;
-	margin-top: 100px;
-	margin-right: 20px;
+	margin: 100px 70px 0 0;
 	font-family: 'PT Sans', sans-serif;
 	line-height: 30px;
 	font-size: 1.1em;
@@ -230,7 +234,7 @@ a.GhostFolio:hover {
 }
 
 #ContactSection img {
-	width: 180px;
+	width: 161px;
 	padding: 15px 65px;
 	text-align: center;
 	background: #273135;
@@ -262,7 +266,7 @@ a.GhostFolio:hover {
   height: 0;	
 }
 
-@media screen and (min-width: 320px) { #Splash p 
+/*@media screen and (min-width: 320px) { #Splash p 
 	{
 		font-family: 'PT Sans', sans-serif;
 		font-size: .8em;
@@ -279,7 +283,7 @@ a.GhostFolio:hover {
 @media screen and (min-width: 320px) { .GroupFolio
 	{
 	width: 40%;
-}
+}*/
 
 
 
