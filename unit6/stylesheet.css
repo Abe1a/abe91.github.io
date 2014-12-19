@@ -92,6 +92,7 @@ section p {
 
 img {
 	float: left;
+	width: 25%;
 }
 
 footer {
@@ -200,7 +201,7 @@ a.Ghost:hover {
 }
 
 .Columns {
-	width: 310px;
+	width: 25%;
 	margin: 100px 70px 0 0;
 	font-family: 'PT Sans', sans-serif;
 	line-height: 30px;
@@ -243,7 +244,7 @@ a.GhostFolio:hover {
 }
 
 #ContactSection img:hover {
-	color: #FF3D2C;
+	background: #FF3D2C;
 }
 
 #ContactSection p {
@@ -266,7 +267,7 @@ a.GhostFolio:hover {
   height: 0;	
 }
 
-/*@media screen and (min-width: 320px) { #Splash p 
+@media only screen and (max-width: 320px) { #Splash p 
 	{
 		font-family: 'PT Sans', sans-serif;
 		font-size: .8em;
@@ -280,15 +281,14 @@ a.GhostFolio:hover {
 }
 
 
-@media screen and (min-width: 320px) { .GroupFolio
+@media screen and (max-width: 320px) { .GroupFolio
 	{
 	width: 40%;
-}*/
+}
 
 
 
-
-
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
 
 
 
