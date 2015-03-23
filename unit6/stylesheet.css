@@ -100,9 +100,9 @@ footer {
 	color: #f7f7f7;
 	text-align: center;
 	background-color: #273135;
-	height: 150px;
+	height: 80px;
 	clear: both;
-	padding: 110px 0 0;
+	padding: 50px 0 0;
 	margin-top: 130px;
 }
 
@@ -200,8 +200,14 @@ a.Ghost:hover {
 	padding-bottom: 100px;
 }
 
+/*img.FolioImg:hover {
+	width: 507px;
+    height: 359px
+	color: black;
+}*/
+
 .Columns {
-	width: 25%;
+	width: 15%;
 	margin: 100px 70px 0 0;
 	font-family: 'PT Sans', sans-serif;
 	line-height: 30px;
@@ -268,29 +274,26 @@ a.GhostFolio:hover {
   height: 0;	
 }
 
-@media only screen and (max-width: 320px) { #Splash p 
+@media only screen and (min-width: 724px) and (max-width: 768px) { nav
 	{
-		font-family: 'PT Sans', sans-serif;
-		font-size: .8em;
-		font-style: center;
-		font-weight: bolder;
-		text-align: center;
-		line-height: 50px;
-		margin: 0 auto 50px auto;
-		color: #ffffff;
-		max-width: 750px;
+		font-size: .9em;
 }
 
-
-@media screen and (max-width:400px) { section p
+@media only screen and (min-width: 600px) and (max-width: 723px) { nav
 	{
-		font-size: .8em;
-		width: 40%;
+		font-size: .7em;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 768px) { section p
+	{
+		font-size: 1em;
+}
 
-
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media only screen and (min-width: 400px) and (max-width: 768px) { img
+	{
+		float: left;
+		width: 100%;
+}
 
 
 

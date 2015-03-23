@@ -81,11 +81,16 @@ footer {
 	float: left;
 }
 #HeaderSection {
-	background: url('assets/JRDevelopment/JR-Logo-large1.png') no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 900px;
 	max-width: 100%;
+}
+
+img#HeroImg {
+	display: block;
+	margin-top: 99px;
+	width: 100%;
+	clear: both;
 }
 
 #Arrow {
@@ -160,8 +165,9 @@ a.NavFolio:hover {
   height: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 800px) { 
+/*@media screen and (min-width: 320px) and (max-width: 800px) { 
 	#HeaderSection {
-	height: 500px;	
-		
-}
+	height: 500px;		
+}*/
+
+
